@@ -1,0 +1,22 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "common_bulma_css",
+  "main": "none",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "an chen",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.6.1",
+    "node-sass": "^4.7.2"
+  }
+}
