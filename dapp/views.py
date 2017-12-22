@@ -24,7 +24,7 @@ class  DataHubView(CsrfExemptMixin, AjaxResponseMixin, JSONResponseMixin, View):
     def post(self, request, *args, **kwargs):
         return self.post_ajax(request, args, kwargs)
 
-    def post_ajax(self, request, *args, **kwargs):
+    def get_ajax(self, request, *args, **kwargs):
         # request_url = request.POST.get('url', None)
         return self.render_json_response(requests.get('https://www.okex.com/api/v1/kline.do?symbol=ltc_btc&type=1min').json())
 
