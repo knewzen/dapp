@@ -20,7 +20,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 
-from dapp.views import IndexView,DetailView,LoginView
+from dapp.views import IndexView,DetailView,LoginView, DataHubView
 urlpatterns = [
     # url(r'^admin/', admin.site.urls),
     url(r'^$', IndexView.as_view(), name='index'),
